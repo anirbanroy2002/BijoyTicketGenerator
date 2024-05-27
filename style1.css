@@ -3,15 +3,7 @@ body{
 	webkit-print-color-adjust: exact;
 }
 
-#greyFilm{
-z-index: -1;
-position: absolute;
-left: 0;
-top: 0;
-width: 100%;
-height: 100%;
-background-color: rgba(255,255,255,0.3);
-}
+
 
 #ticketGenerator *{
 	font-family: monospace;
@@ -30,7 +22,6 @@ background-color: rgba(255,255,255,0.3);
 #ticketGenerator input, #ticketGenerator textarea{
 	display: block;
 	margin: 10px;
-	background: transparent;
 	border: solid 2px black;
 	color: black;
 	padding: 5px;
@@ -81,4 +72,12 @@ background-color: rgba(255,255,255,0.3);
 	#printTicket{
 		display: none;
 	}
+}
+
+input, textarea{
+	background-color: plum;
+}
+
+label{
+	background-color: violet;
 }
