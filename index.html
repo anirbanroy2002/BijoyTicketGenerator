@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Bijoy Ticket Generator</title>
-	<link href="style.css" rel="stylesheet">
+	<link href="style1.css" rel="stylesheet">
 </head>
 <body style=
 '	
@@ -13,20 +13,39 @@ background-size: cover;
 '
 >
 
-<div id="greyFilm"></div>
 	<div id="ticketGenerator">
 		<h1>BIJOY TICKET GENERATOR</h1>
 		<div id="inputFields">
+			<label>From
 			<input type="text" id="source" placeholder="Source"></input>
+			</label>
+			<label>Departure Date
 			<input type="date" id="journeyDate" placeholder="Departure Date"></input>
+		</label>
+		<label>Departure Time
 			<input type="time" id="journeyTime" placeholder="Departure Time"></input>
+		</label>
+		<label>To
 			<input type="text" id="destination" placeholder="Destination"></input>
+		</label>
+		<label>Arrival Date
 			<input type="date" id="destinationDate" placeholder="Arrival Date"></input>
+		</label>
+		<label>Arrival Time
 			<input type="time" id="destinationTime" placeholder="Arrival Time"></input>
+		</label>
+		<label>Bus Company Name
 			<input type="text" id="busname" placeholder="Bus name"></input>
+		</label>
+		<label>Ticket Fare
 			<input type="number" id="totalPrice" placeholder="Total Price"></input>
+		</label>
+		<label>Boarding Address
 			<textarea id="BrdDesc" placeholder="Boarding point description"></textarea>
+		</label>
+		<label>Dropping Address
 			<textarea id="DropDesc" placeholder="Dropping point description"></textarea>
+			</label>
 			<button id="genTicket">GENERATE ✨</button>
 		</div>
 	</div>
