@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bijoy Ticket Generator</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body style=
+'	
+background-image: url("bijoy-ticket.jpg");
+background-size: cover;
+'
+>
+
+<div id="greyFilm"></div>
+	<div id="ticketGenerator">
+		<h1>BIJOY TICKET GENERATOR</h1>
+		<div id="inputFields">
+			<input type="text" id="source" placeholder="Source"></input>
+			<input type="date" id="journeyDate" placeholder="Departure Date"></input>
+			<input type="time" id="journeyTime" placeholder="Departure Time"></input>
+			<input type="text" id="destination" placeholder="Destination"></input>
+			<input type="date" id="destinationDate" placeholder="Arrival Date"></input>
+			<input type="time" id="destinationTime" placeholder="Arrival Time"></input>
+			<input type="text" id="busname" placeholder="Bus name"></input>
+			<input type="number" id="totalPrice" placeholder="Total Price"></input>
+			<textarea id="BrdDesc" placeholder="Boarding point description"></textarea>
+			<textarea id="DropDesc" placeholder="Dropping point description"></textarea>
+			<button id="genTicket">GENERATE ✨</button>
+		</div>
+	</div>
+	<script src="script.js"></script>	
+</body>
+</html>
