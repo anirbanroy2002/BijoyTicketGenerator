@@ -557,6 +557,6 @@ GenBtn.onclick = () =>
              }
 
      
-      setInterval(() => {
-        changeColor();
-      }, 1200);
+      // setInterval(() => {
+      //   changeColor();
+      // }, 1200);
