@@ -19,7 +19,7 @@ body{
 	background-color: plum;
 }
 
-#ticketGenerator input, #ticketGenerator textarea{
+#ticketGenerator input, #ticketGenerator textarea , select{
 	display: block;
 	margin: 10px;
 	border: solid 2px black;
@@ -74,7 +74,7 @@ body{
 	}
 }
 
-input, textarea{
+input, textarea, select{
 	background-color: plum;
 }
 
