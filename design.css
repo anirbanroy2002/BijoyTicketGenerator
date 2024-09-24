@@ -6,7 +6,7 @@ body{
 }
 
 #warning{
-    font-family: cursive;
+    font-family: monospace;
     max-width: 300px;
     top: 1800px;
     font-size: 30px;
