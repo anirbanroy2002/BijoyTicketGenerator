@@ -3,7 +3,14 @@ body{
 	webkit-print-color-adjust: exact;
 }
 
-
+#warning{
+    font-family: cursive;
+    max-width: 300px;
+    top: 1800px;
+    font-size: 30px;
+    position: absolute;
+    color: white;
+}
 
 #ticketGenerator *{
 	font-family: monospace;
