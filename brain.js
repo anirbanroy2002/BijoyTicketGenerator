@@ -552,8 +552,8 @@ GenBtn.onclick = () =>
       
       function changeColor() {
         let color = colors[Math.floor(Math.random() * colors.length)];
-	let color2 = colors[Math.floor(Math.random() * colors.length)];
-        document.body.style.background = `linear-gradient(to right, ${color}, ${color2})`;
+	//let color2 = colors[Math.floor(Math.random() * colors.length)];
+        document.body.style.backgroundColor = color;
              }
 
      
