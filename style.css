@@ -1,6 +1,8 @@
 body{
 	print-color-adjust: exact;
 	webkit-print-color-adjust: exact;
+	        transition: 1s linear;
+
 }
 
 #warning{
